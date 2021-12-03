@@ -10,7 +10,6 @@ server.use("/api/adopters",adopterRouter)
 
 const Dog = require('./dogs/dogs-model');
 
-
 // DOGS ENDPOINTS
 // DOGS ENDPOINTS
 // DOGS ENDPOINTS
