@@ -4,7 +4,7 @@ const router = express.Router()
 // DOGS ENDPOINTS
 // DOGS ENDPOINTS
 // DOGS ENDPOINTS
-router.get((req, res) => {
+router.get('/', (req, res) => {
   Dog.find()
     .then(dogs => {
       res.status(200).json(dogs);
