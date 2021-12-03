@@ -53,3 +53,4 @@ function findDogs(adopterId) {
     .select('a.id', 'a.name', 'a.email', 'd.id as dog_id', 'd.name as dog_name')
     .where({ 'a.id': adopterId });
 }
+
